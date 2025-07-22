@@ -1,0 +1,6 @@
+version: '3'
+services:
+  changes:
+    build: https://github.com/Lajithaalagarbabu/changes-page.git
+    ports:
+      - "3000:3000"
